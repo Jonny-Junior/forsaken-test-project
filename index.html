@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Ontem versão deluxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Polimorfismo em Ação</h1>
+        <p>Com Sobrescrita e Sobrecarga</p>
+    </header>
+
+    <main>
+        <section class="content">
+            <p>Escolha um Killer e veja o comportamento:</p>
+            <select id="killerSelect">
+                <option value="">Selecione...</option>
+                <option value="noli">Noli</option>
+                <option value="devesto">Devesto(Noli)</option>
+                <option value="coolkid">C00lkid</option>
+                <option value="coolkidm4">C00lkidM4</option>
+                <option value="diva">Divadayo</option>
+                <option value="mafioso">Mafioso</option>
+                <option value="evilshed">1x1x1x1</option>
+                <option value="johndoe">John Doe</option>
+                <option value="pirate">Gasharpoon</option>
+            </select>
+
+            <div class="volume-control">
+                <label>Volume do som:</label>
+                <select id="volumeSelect">
+                    <option value="">Normal</option>
+                    <option value="baixo">Baixo</option>
+                    <option value="alto">Alto</option>
+                </select>
+            </div>
+
+            <button id="btnSom">Fazer Som</button>
+
+            <div id="resultado"></div>
+            <img id="killerImg" class="hidden" alt="Killer">
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido em aula - Polimorfismo, Sobrescrita e Sobrecarga</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
