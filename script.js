@@ -49,7 +49,7 @@ class Devesto extends Killer {
 
 class Divadayo extends Killer {
     fazerSom() {
-        return "Oh my god, hi!"
+        return "Forsaken? More like your mo- *Static*"
     }
 }
 
@@ -177,7 +177,7 @@ function tocarSom(somDevesto) {
     somDevesto.play();
 }
 
-const somDiva = new Audio('DivaDayoIdle2.mp3')
+const somDiva = new Audio('DivaDayoIdle6.mp3')
 
 function tocarSom(somDiva) {
     somDiva.currentTime = 0;
